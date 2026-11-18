@@ -1,0 +1,625 @@
+
+	 /* LAYOUR  - body */
+
+body {
+	box-sizing: border-box;
+	font-family: system-ui, sans-serif;
+	line-height: 1.5;
+	max-width: 110rem;
+	margin-top:35px;
+	margin-bottom:35px;
+	margin-right:25px;
+	margin-left:25px;
+	padding:20px;
+	background-color: #C5C5B9;
+}
+
+ /* HAUT DE PAGE - barre de nav fixé */
+
+header {
+  font-size: 11pt;
+  text-align: center;
+  max-width: 110rem;
+  margin: rem auto;
+  margin-bottom:15px;
+  padding:5px;
+  background-color: dimgray;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: box-shadow 0.2s;
+}
+
+
+.main-nav {
+	text-align: center;
+ 	display: flex;
+ 	max-width: 60rem;
+ 	margin: 0 auto;
+ 	padding: 0.75rem 1rem;
+}
+
+.rch-nav {
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+
+.tb-nav {
+	width: 95%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:2px;
+	margin-left:2px;
+	padding:4px;
+	}
+
+tr, td {
+border: 0px;
+padding:2px;
+}
+
+
+
+
+ /* HAUT DE PAGE - classement par catégorie */
+
+.mainmenubtn {
+    background-color: #A5A398;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: #CDCCC5;
+    }
+    
+.deroulant {
+	text-align: center;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-right:25px;
+	margin-left:25px;
+    position: relative;
+    display: inline-block;
+}
+
+.deroulant-child {
+    display: none;
+    background-color: #DBDAD5;
+    min-width: 200px;
+}
+
+.deroulant-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.deroulant:hover .deroulant-child {
+    display: block;
+}
+
+
+
+ /* BAS DE PAGE */
+
+
+footer {
+	font-size: 11pt;
+	text-align: center;
+	max-width: 110rem;
+	margin: rem auto;
+	margin-top:15px;
+	padding:5px;
+	background-color: dimgray;
+}
+
+
+ /* LAYOUT - TITRES */
+ 
+h1 {
+	font-size: 22pt;
+	color: #F1F0EC;
+	text-align: center;
+	margin: rem auto;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right:8px;
+	margin-left:8px;
+	padding:10px;
+}
+
+
+h2 {
+	font-size: 20pt;
+	color: #F1F0EC;
+	text-align: center;
+	margin: rem auto;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:8px;
+	margin-left:8px;
+	padding:10px;
+	background-color: #969583;
+}
+
+
+h3 {
+	font-size: 18pt;
+	color: #F1F0EC;
+	margin: rem auto;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:8px;
+	margin-left:8px;
+	padding:8px;
+}
+
+
+h4 {
+  font-size: 16pt;
+  color: #F1F0EC;
+  margin: rem auto;
+  margin-top:8px;
+  margin-bottom:8px;
+  margin-right:8px;
+  margin-left:8px;
+  padding:8px;
+}
+
+
+h5 {
+  font-size: 14pt;
+  color: #F1F0EC;
+  margin: rem auto;
+  margin-top:8px;
+  margin-bottom:8px;
+  margin-right:8px;
+  margin-left:8px;
+  padding:8px;
+}
+
+h6 {
+  font-size: 12pt;
+  color: #F1F0EC;
+  margin: rem auto;
+  margin-top:8px;
+  margin-bottom:8px;
+  margin-right:8px;
+  margin-left:8px;
+  padding:8px;
+}
+
+ /* LAYOUT - SECTION SEMANTIQUES */
+
+section {
+	width: 100%;
+	font-family: system-ui, sans-serif;
+	background-color: #C5C5B9;
+}
+
+
+
+article {
+	width: 80%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:30px;
+	margin-left:30px;
+	padding:8px;
+	margin: rem auto;
+	font-family: system-ui, sans-serif;
+	display:inline-block
+}
+
+
+p {
+	margin-top:10px;
+	margin-bottom:8px;
+	margin-right:6px;
+	margin-left:6px;
+	padding:8px;
+	font-size: 12pt;
+	color: black;
+}
+
+
+p.label-details {
+	width: 95%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:230x;
+	padding:8px;
+	font-size: 12pt;
+	color: black;
+}
+
+p.biographie {
+	width: 90%;
+	margin-top:8px;
+	margin-bottom:6px;
+	margin-right:2px;
+	margin-left:5px;
+	padding:8px;
+	font-size: 12pt;
+	color: black;
+}
+
+
+
+.index {
+	width: 100%;
+	font-family: system-ui, sans-serif;
+	background-color: #C5C5B9;
+}
+
+
+.alphabet {
+	width: 100%;
+ 	box-sizing: border-box;
+  	font-family: system-ui, sans-serif;
+  	text-align: center;
+	margin-top:30px;
+	margin-bottom:10px;
+ 	background-color: #96958B;
+}
+
+
+
+ 
+ /* SECTION GENRES MUSICAUX - LAYOUT */
+
+ 
+.a-img-txt{
+  display:grid; 
+}
+
+/* les enfants se superposent */
+.a-img-txt>*{
+  grid-area:1/1/-1/-1; 
+  /* raccourci pour grid-row et grid-column */
+}
+.a-img{
+  filter:saturate(60%);
+   max-width:100%;
+   height:auto;
+}
+
+/* le texte */
+.a-txt{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  opacity:0;
+  filter:saturate(70%); /* antibug si effet sur a-img */
+  transition:opacity .8s;
+}
+
+
+/* les couleurs des catégories musicales */
+.c1{
+    background:#32A8DAcc; /*image classique - code hex avec avec alpha */
+}
+
+.c2{
+    background:#47D3BEcc; /*image electro - code hex avec avec alpha */
+}
+
+.c3{
+    background:#5AD270cc; /*image folk - code hex avec avec alpha */
+}
+
+.c4{
+    background:#4D5E93cc; /*image heavy metal - code hex avec avec alpha */
+}
+
+.c5{
+    background:#6866E6cc; /*image hip hop - code hex avec avec alpha */
+}
+
+.c6{
+    background:#9D38C8cc; /*image jazz - code hex avec avec alpha */
+}
+
+.c7{
+    background:#D741B7cc; /*image pop - code hex avec avec alpha */
+}
+
+.c8{
+    background:#E26E27cc; /*image rap - code hex avec alpha */
+}
+
+.c9{
+    background:#C23B48cc; /*image rock - code hex avec avec alpha */
+}
+
+
+/* le survol */
+.a-txt:hover{
+  opacity:1;
+}
+
+.a-img-txt:hover .a-img{
+  filter:saturate(100%);
+}
+
+
+/* Section qui contient la grille d'habillage des genres musicaux */
+div.genres-musicaux {
+	margin-top: 50px; /* à ajuster */
+  	margin-bottom: 25px;
+  	background:#222;
+  	margin:20px;
+  	font-family:sans-serif;
+  	font-size:25px;
+  	display:grid;
+  	grid-template-columns:1fr 1fr 1fr;
+  	grid-gap:10px;
+  	gap:10px;
+}
+
+
+a{
+  text-decoration:none;
+}
+ 
+ 
+ .container
+ 	width: 100%;
+  	box-sizing: border-box;
+  	font-family: system-ui, sans-serif;
+  	margin: rem auto;
+  	margin-top:10px;
+	margin-bottom:30px;
+  	background-color: #B0B0A4;
+  	
+  	
+  	
+  	
+  	
+  	
+	/* SECTION LABELS - LAYOUT */
+ 	
+ 	
+.l-liste {
+	width: 100%;
+  	box-sizing: border-box;
+  	font-family: system-ui, sans-serif;
+  	margin: rem auto;
+  	margin-top:15px;
+	margin-bottom:20px;
+  	background-color: #B0B0A4;
+}
+
+.tb-label {
+	width: 95%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:2px;
+	margin-left:2px;
+	padding:4px;
+	background-color: #9EB1B0;
+	}
+
+tr, td {
+border: 1px solid black;
+padding:2px;
+}
+
+.tb-album-desc1 {
+	width: 95%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:2px;
+	margin-left:2px;
+	padding:4px;
+	background-color: #ACA874;
+}
+
+ 
+ 
+.img-label {
+	margin-top:12px;
+	margin-bottom:10px;
+	margin-right:20px;
+	margin-left:10px;
+	padding:5px;
+	border: 3px;
+	border-style: double;
+	border-color: #6CC9C8;
+}
+ 
+ 
+ 
+
+	/* SECTION ARTISTES - LAYOUT */
+
+
+
+.a-liste {
+	width: 100%;
+  	box-sizing: border-box;
+  	font-family: system-ui, sans-serif;
+  	margin: rem auto;
+  	margin-top:15px;
+	margin-bottom:20px;
+  	background-color: #B0B0A4;
+}
+
+
+.a-bio {
+  	box-sizing: border-box;
+  	font-family: system-ui, sans-serif;
+  	margin: rem auto;
+  	margin-top:15px;
+	margin-bottom:12px;
+  	border: 2px dotted #3F3F3A;
+	padding:8px;
+  	column-count: 2;
+  	column-width: 360px;
+  	column-gap: 4px;
+  	column-rule: 6px dotted rgb(228, 203, 102);
+}
+
+
+.img-artiste {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:5px;
+	margin-left:5px;
+	padding:5px;
+}
+
+
+.img-album {
+	margin-top:12px;
+	margin-bottom:10px;
+	margin-right:20px;
+	margin-left:10px;
+	padding:5px;
+	border: 3px;
+	border-style: double;
+	border-color: #A2DD36;
+}
+
+.tb-album-desc2 {
+	width: 95%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:2px;
+	margin-left:2px;
+	padding:4px;
+	background-color: #ACA874;
+}
+
+.tb-album {
+	width: 95%;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:2px;
+	margin-left:2px;
+	padding:4px;
+	background-color: #96958B;
+}
+
+tr, td {
+border: 1px solid black;
+padding:2px;
+}
+
+
+	/* bouton pour la fonction sélection */
+	
+
+/* bouton : sélection aj */
+
+.button-1 {
+  background-color: #A9D5A8;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgb(136, 200, 135) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  margin-top:8px;
+  margin-bottom:8px;
+  margin-right:2px;
+  margin-left:2px;
+  padding:12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #87CF86;
+}
+
+.button-1:focus {
+  box-shadow: 0 0 0 4px rgb(117, 194, 116);
+}
+
+.button-1:active {
+  background-color: #68D46F;
+  box-shadow: none;
+}
+
+
+/* bouton : sélection suppr */
+
+
+.button-2 {
+  background-color: #EA927C;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin-top:8px;
+  margin-bottom:8px;
+  margin-right:2px;
+  margin-left:2px;
+  padding:12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #D77735;
+}
+
+.button-2:focus {
+  box-shadow: 0 0 0 4px rgb(216, 109, 46);
+}
+
+.button-2:active {
+  background-color: #C15E19;
+  box-shadow: none;
+}
